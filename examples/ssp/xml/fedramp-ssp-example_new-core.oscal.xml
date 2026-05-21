@@ -90,6 +90,10 @@
         <title>none</title>
         <function-performed>none</function-performed>
       </authorized-privilege>
+      <remarks>
+        <p>OSCAL SSPs must have at least one users entry.</p>
+        <p>If there are none, use this as a placeholder.</p>
+      </remarks>
     </user>
     <component uuid="11111111-2222-4000-8000-009000000000" type="this-system">
       <title>This System</title>

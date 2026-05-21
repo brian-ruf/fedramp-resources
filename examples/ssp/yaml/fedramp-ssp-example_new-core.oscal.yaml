@@ -94,6 +94,10 @@ system-security-plan:
       - title: none
         functions-performed:
         - none
+      remarks: 'OSCAL SSPs must have at least one users entry.
+
+
+        If there are none, use this as a placeholder.'
     components:
     - uuid: 11111111-2222-4000-8000-009000000000
       type: this-system

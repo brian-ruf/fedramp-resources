@@ -90,6 +90,10 @@
         <title>none</title>
         <function-performed>none</function-performed>
       </authorized-privilege>
+      <remarks>
+        <p>OSCAL SSPs must have at least one users entry.</p>
+        <p>If there are none, use this as a placeholder.</p>
+      </remarks>
     </user>
     <component uuid="11111111-2222-4000-8000-009000000000" type="this-system">
       <title>This System</title>
@@ -148,6 +152,8 @@
       <p>There is one control in this example. Follow this pattern for each additional control.</p>
     </description>
     <implemented-requirement control-id="ac-1" uuid="11111111-2222-4000-8000-012000010000">
+      <link href="./AC_Policy.docx" rel="policy" media-type="application/docx" />
+      <link href="./AC_Procedure.docx" rel="procedure" media-type="application/docx" />
       <set-parameter param-id="ac-01_odp.01">
         <value>all managers, administrators and users of the system</value>
       </set-parameter>

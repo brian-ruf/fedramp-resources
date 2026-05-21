@@ -148,7 +148,8 @@
                 "none"
               ]
             }
-          ]
+          ],
+          "remarks": "OSCAL SSPs must have at least one users entry.\n\nIf there are none, use this as a placeholder."
         }
       ],
       "components": [
@@ -298,6 +299,18 @@
         {
           "uuid": "11111111-2222-4000-8000-012000010000",
           "control-id": "ac-1",
+          "links": [
+            {
+              "href": "./AC_Policy.docx",
+              "rel": "policy",
+              "media-type": "application/docx"
+            },
+            {
+              "href": "./AC_Procedure.docx",
+              "rel": "procedure",
+              "media-type": "application/docx"
+            }
+          ],
           "set-parameters": [
             {
               "param-id": "ac-01_odp.01",

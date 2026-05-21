@@ -821,7 +821,8 @@
                 "none"
               ]
             }
-          ]
+          ],
+          "remarks": "OSCAL SSPs must have at least one users entry.\n\nIf there are none, use this as a placeholder."
         },
         {
           "uuid": "11111111-2222-4000-8000-008000000002",
@@ -831,6 +832,9 @@
               "ns": "http://fedramp.gov/ns/oscal",
               "value": "yes"
             }
+          ],
+          "role-ids": [
+            "asset-administrator"
           ],
           "authorized-privileges": [
             {
@@ -850,11 +854,15 @@
               "value": "yes"
             }
           ],
+          "role-ids": [
+            "asset-administrator",
+            "admin-client"
+          ],
           "authorized-privileges": [
             {
-              "title": "none",
+              "title": "Add/Remove Users",
               "functions-performed": [
-                "add/remove non-privliged admins"
+                "add/remove non-privliged users"
               ]
             }
           ]
@@ -868,9 +876,12 @@
               "value": "yes"
             }
           ],
+          "role-ids": [
+            "asset-administrator"
+          ],
           "authorized-privileges": [
             {
-              "title": "none",
+              "title": "Cloud-Native Service Deployment",
               "functions-performed": [
                 "Manage services and components within the virtual cloud environment."
               ]
@@ -886,9 +897,12 @@
               "value": "yes"
             }
           ],
+          "role-ids": [
+            "admin-client"
+          ],
           "authorized-privileges": [
             {
-              "title": "none",
+              "title": "Application User Admin",
               "functions-performed": [
                 "Add and remove users from the virtual cloud environment."
               ]

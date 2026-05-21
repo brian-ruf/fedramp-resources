@@ -507,11 +507,17 @@ system-security-plan:
       - title: none
         functions-performed:
         - none
+      remarks: 'OSCAL SSPs must have at least one users entry.
+
+
+        If there are none, use this as a placeholder.'
     - uuid: 11111111-2222-4000-8000-008000000002
       props:
       - name: separation-of-duties-matrix
         ns: http://fedramp.gov/ns/oscal
         value: 'yes'
+      role-ids:
+      - asset-administrator
       authorized-privileges:
       - title: Add/Remove Admins
         functions-performed:
@@ -521,17 +527,22 @@ system-security-plan:
       - name: separation-of-duties-matrix
         ns: http://fedramp.gov/ns/oscal
         value: 'yes'
+      role-ids:
+      - asset-administrator
+      - admin-client
       authorized-privileges:
-      - title: none
+      - title: Add/Remove Users
         functions-performed:
-        - add/remove non-privliged admins
+        - add/remove non-privliged users
     - uuid: 11111111-2222-4000-8000-008000000004
       props:
       - name: separation-of-duties-matrix
         ns: http://fedramp.gov/ns/oscal
         value: 'yes'
+      role-ids:
+      - asset-administrator
       authorized-privileges:
-      - title: none
+      - title: Cloud-Native Service Deployment
         functions-performed:
         - Manage services and components within the virtual cloud environment.
     - uuid: 11111111-2222-4000-8000-008000000005
@@ -539,8 +550,10 @@ system-security-plan:
       - name: separation-of-duties-matrix
         ns: http://fedramp.gov/ns/oscal
         value: 'yes'
+      role-ids:
+      - admin-client
       authorized-privileges:
-      - title: none
+      - title: Application User Admin
         functions-performed:
         - Add and remove users from the virtual cloud environment.
     components:

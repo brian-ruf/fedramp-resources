@@ -148,7 +148,8 @@
                 "none"
               ]
             }
-          ]
+          ],
+          "remarks": "OSCAL SSPs must have at least one users entry.\n\nIf there are none, use this as a placeholder."
         }
       ],
       "components": [

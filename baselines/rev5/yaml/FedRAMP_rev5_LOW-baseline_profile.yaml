@@ -871,5 +871,5 @@ profile:
       - name: version
         value: 5.1.1
       rlinks:
-      - href: FedRAMP_rev5_catalog_tailoring_profile.xml
-        media-type: application/oscal+xml
+      - href: ./FedRAMP_rev5_catalog_tailoring_profile.yaml
+        media-type: application/oscal+yaml

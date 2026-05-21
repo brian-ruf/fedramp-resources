@@ -500,10 +500,15 @@
         <title>none</title>
         <function-performed>none</function-performed>
       </authorized-privilege>
+      <remarks>
+        <p>OSCAL SSPs must have at least one users entry.</p>
+        <p>If there are none, use this as a placeholder.</p>
+      </remarks>
     </user>
 
     <user uuid="11111111-2222-4000-8000-008000000002">
       <prop name="separation-of-duties-matrix" value="yes" ns="http://fedramp.gov/ns/oscal"/>
+      <role-id>asset-administrator</role-id>
       <authorized-privilege>
         <title>Add/Remove Admins</title>
         <function-performed>This can add and remove admins.</function-performed>
@@ -511,22 +516,26 @@
     </user>
     <user uuid="11111111-2222-4000-8000-008000000003">
       <prop name="separation-of-duties-matrix" value="yes" ns="http://fedramp.gov/ns/oscal"/>
+      <role-id>asset-administrator</role-id>
+      <role-id>admin-client</role-id>
       <authorized-privilege>
-        <title>none</title>
-        <function-performed>add/remove non-privliged admins</function-performed>
+        <title>Add/Remove Users</title>
+        <function-performed>add/remove non-privliged users</function-performed>
       </authorized-privilege>
     </user>
     <user uuid="11111111-2222-4000-8000-008000000004">
       <prop name="separation-of-duties-matrix" value="yes" ns="http://fedramp.gov/ns/oscal"/>
+      <role-id>asset-administrator</role-id>
       <authorized-privilege>
-        <title>none</title>
+        <title>Cloud-Native Service Deployment</title>
         <function-performed>Manage services and components within the virtual cloud environment.</function-performed>
       </authorized-privilege>
     </user>
     <user uuid="11111111-2222-4000-8000-008000000005">
       <prop name="separation-of-duties-matrix" value="yes" ns="http://fedramp.gov/ns/oscal"/>
+      <role-id>admin-client</role-id>
       <authorized-privilege>
-        <title>none</title>
+        <title>Application User Admin</title>
         <function-performed>Add and remove users from the virtual cloud environment.</function-performed>
       </authorized-privilege>
     </user>

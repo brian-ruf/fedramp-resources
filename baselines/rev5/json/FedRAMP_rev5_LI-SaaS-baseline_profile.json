@@ -7365,8 +7365,8 @@
           ],
           "rlinks": [
             {
-              "href": "FedRAMP_rev5_LOW-baseline_profile.xml",
-              "media-type": "application/oscal+xml"
+              "href": "./FedRAMP_rev5_LOW-baseline_profile.json",
+              "media-type": "application/oscal+json"
             }
           ]
         }
