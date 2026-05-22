@@ -40655,8 +40655,8 @@
           ],
           "rlinks": [
             {
-              "href": "https://raw.githubusercontent.com/usnistgov/oscal-content/refs/tags/v1.3.0/nist.gov/SP800-53/rev5/xml/NIST_SP-800-53_rev5_catalog.xml",
-              "media-type": "application/oscal+xml"
+              "href": "https://raw.githubusercontent.com/usnistgov/oscal-content/refs/tags/v1.3.0/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+              "media-type": "application/oscal+json"
             }
           ]
         }
